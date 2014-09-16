@@ -29,7 +29,7 @@ after_script:
   - "/etc/init.d/xvfb stop"
   - istanbul cover conf.js -- -u tdd
   - istanbul report cobertura --dir  shippable/codecoverage/
-
+archive: true
 
 notifications:
      email:
