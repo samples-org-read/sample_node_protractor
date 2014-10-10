@@ -5,7 +5,7 @@ node_js:
   - "0.10"
 
 addons:
-  firefox: "30.0"
+  firefox: "28.0"
 
 services:
   - selenium
@@ -29,6 +29,7 @@ after_script:
   - "/etc/init.d/xvfb stop"
   - istanbul cover conf.js -- -u tdd
   - istanbul report cobertura --dir  shippable/codecoverage/
+
 archive: true
 
 
