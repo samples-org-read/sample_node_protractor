@@ -1,5 +1,4 @@
-language: erlang
-
+language: node_js
 
 
 node_js:
@@ -28,6 +27,8 @@ before_script:
 script:
   - protractor --version
   - protractor conf.js
+  
+parallelized_test: true
 
 after_script:
   - "/etc/init.d/xvfb stop"
@@ -38,7 +39,7 @@ archive: true
 
 
 notifications:
-     email:
+     email
          recipients:
              - vidya@shippable.com
              - buildsampletest@gmail.com
