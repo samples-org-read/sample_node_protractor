@@ -1,7 +1,7 @@
-language: node_js
+language: erlang
 
 
-node_js
+node_js:
   - "0.10"
 env:
   - secure: l7nkJM1v+qpoenkscpdAMDPmIyHf2yRWvRrVfu7UoM+YdkzV2/pNFu3Xk1rtn1ttpVkHmR8XkVu8U51nwDeHAL5R20YbI4ikqbV14nqdk8nr9URZdaOJVhYmS5vnMFHs76FgTZnoGi+/DvjJn02aELwsJ6KNvxZ2QF7MLwkmm47WbFaSY4EukbO/6MhXXcqfR3DAO1AToIaAe2AjWq5a23892YLObjR7C3jl7HcT/9tfknihTkW/VanwIWntsbXtF9f2QegOZeeykZConP6lBmDdmkKNMI9zzVeb7PHeLE1mwwST2bkCaKJI+UIjtHdm5PYsyO10TCRnuXNwBS00Qg==
