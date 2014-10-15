@@ -39,7 +39,7 @@ archive: true
 
 
 notifications:
-     email
+     email:
          recipients:
              - vidya@shippable.com
              - buildsampletest@gmail.com
