@@ -19,6 +19,6 @@ describe('angularjs homepage', function() {
     add(1, 2);
     add(3, 4);
 
-    expect(history.last().getText()).toContain('1 + 3');
+    expect(history.last().getText()).toContain('1 + 2');
   });
 });
