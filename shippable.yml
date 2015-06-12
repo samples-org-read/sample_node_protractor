@@ -38,8 +38,6 @@ after_script:
   - istanbul report cobertura --dir  shippable/codecoverage/
 
 archive: true
-
-
 notifications:
      email:
          recipients:
