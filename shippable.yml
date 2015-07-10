@@ -30,7 +30,7 @@ script:
   - protractor --version
   - protractor conf.js
   
-parallelized_test: true
+#parallelized_test: true
 
 after_script:
   - "/etc/init.d/xvfb stop"
