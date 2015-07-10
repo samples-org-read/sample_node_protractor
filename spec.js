@@ -16,7 +16,7 @@ describe('angularjs homepage', function() {
   });
 
   it('should have a history', function() {
-    add(1, 1);
+    add(1, 2);
     add(3, 4);
 
     expect(history.last().getText()).toContain('1 + 2');
